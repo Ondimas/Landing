@@ -1,0 +1,59 @@
+.header {
+    background-image: url("./assets/dark-hero-3-cover.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0%;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    gap: 22px;
+    margin-left: 42px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-element {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.authorization {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.login {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.button-member {
+    background-color: #23A6F0;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    cursor: pointer;
+}
