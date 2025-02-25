@@ -63,6 +63,7 @@
 
 .main-banner-information {
     margin: 125px 0px 0px 195px;
+    width: 400px;
     gap: 35px;
     display: flex;
     flex-direction: column;
@@ -75,15 +76,16 @@
 
 .banner-title {
     color: #FFFFFF;
-    width: 440px;
     line-height: 1.35;
     font-size: 58px;
-    font-family: 'Montserrat';
     letter-spacing: 0.2px;
 }
 
 .banner-subtitle {
-    color: #FFFFFF;   
+    color: #FFFFFF; 
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 0.2px;
 }
 
 
