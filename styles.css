@@ -1,6 +1,6 @@
 
 .header {
-    padding: 20px 195px 20px 195px;
+    padding: 20px 136px 20px 136px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,7 +62,7 @@
 }
 
 .main-banner-information {
-    margin: 125px 0px 0px 195px;
+    margin: 125px 0px 0px 136px;
     width: 400px;
     gap: 35px;
     display: flex;
@@ -72,6 +72,7 @@
 
 .banner-greeting {
     color: #23A6F0;
+    font-size: 24px;
 }
 
 .banner-title {
