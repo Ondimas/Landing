@@ -1,0 +1,92 @@
+
+.header {
+    padding: 20px 136px 20px 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0%;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    gap: 22px;
+    margin-left: 42px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-element {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.authorization {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.login {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.common-bg{
+    background-image: url("./assets/dark-hero-3-cover.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.btn-join_us {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-banner-information {
+    margin: 125px 0px 0px 136px;
+    width: 400px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner-greeting {
+    color: #23A6F0;
+    font-size: 24px;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    line-height: 1.35;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+}
+
+.banner-subtitle {
+    color: #FFFFFF; 
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+
