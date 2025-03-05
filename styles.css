@@ -96,4 +96,30 @@
     justify-content: space-between;
 }
 
+.footer-title-block {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-block-list {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-proverb {
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+
+.footer-block-list li {
+    cursor: pointer;
+}
+
+
+
 
