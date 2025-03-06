@@ -120,6 +120,17 @@
     cursor: pointer;
 }
 
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-socialmedia-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 
 
