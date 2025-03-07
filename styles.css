@@ -89,4 +89,48 @@
     letter-spacing: 0.2px;
 }
 
+.footer {
+    display: flex;
+    flex-direction:row;
+    padding: 80px 136px;
+    justify-content: space-between;
+}
+
+.footer-title-block {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-block-list {
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-proverb {
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+
+.footer-block-list li {
+    cursor: pointer;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-socialmedia-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
 
