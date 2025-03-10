@@ -3,7 +3,7 @@ body {
     background-color: #252B42;
 }
 
-p, h1, h3 {
+p, h1, h3, h6, h2 {
     margin: 0 !important;
 }
 

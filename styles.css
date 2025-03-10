@@ -132,5 +132,36 @@
     gap: 20px;
 }
 
+.subtitle-course {
+    color: #23A6F0;
+    font-size: 14px;
+}
+
+.block-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+    gap: 10px;
+}
+
+.title-course {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.info-course {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.banner-courses {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0px;
+    gap: 30px;
+}
+
 
 
