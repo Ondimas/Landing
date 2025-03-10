@@ -156,6 +156,12 @@
     text-align: center;
 }
 
+.banner-courses {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0px;
+    gap: 30px;
+}
 
 
 
