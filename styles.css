@@ -204,6 +204,95 @@
 .watch-course-images-container {
 }
 
+.online-education-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 180px;
+    gap: 10px;
+}
+
+.subtitle-online-education {
+    color: #23A6F0;
+    font-size: 14px;
+}
+
+.title-online-education {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.info-online-education {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 80px;
+    margin: 125px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.slide-image_container{
+    position: relative;
+}
+
+.sale-block {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    background-color: #E74040;
+    width: 50px;
+    height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.slide-action_icons {
+    position: absolute;
+    bottom: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.slide-info_text {
+    background-color: #FFFFFF;
+    width: 330px;
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+       
+}
+
+.slide-info_abovetitle {
+    color: #23A6F0;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 26px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.slide-title_subtitle {
+    gap: 10px;
+
+}
 
 
 
