@@ -276,7 +276,6 @@
     flex-direction: column;
     gap: 10px;
     
-       
 }
 
 .slide-info_abovetitle {
@@ -287,12 +286,57 @@
     height: 26px;
     justify-content: space-between;
     gap: 10px;
+    padding: 25px 25px 10px 25px;
 }
 
 .slide-title_subtitle {
+    padding: 0px 25px 10px 25px;
+    font-size: 14px;
     gap: 10px;
 
 }
+
+.slider-image {
+    display: block;
+}
+
+.slider-sales {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 25px;
+    font-size: 12px;
+}
+
+.slider-price {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+}
+
+.slider-new_price {
+    color: #40BB15;
+}
+
+.time-progress {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 10px 25px;
+    font-size: 12px;
+        
+}
+
+.learn-more-block {
+    width: 150px;
+    height: 60px;
+    color: #23A6F0;
+    display: flex;
+    border-radius: 4px;
+    
+
+}
+
+
 
 
 
