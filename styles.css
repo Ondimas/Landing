@@ -46,9 +46,9 @@
     font-size: 22px;
 }
 
-.common-bg{
+.common-bg {
     background-image: url("./assets/dark-hero-3-cover.png");
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     display: block;
@@ -199,9 +199,6 @@
 .link-learn-more {
     color: #23A6F0;
     font-size: 14px;
-    
-}
-.watch-course-images-container {
 }
 
 .online-education-block {
@@ -333,12 +330,18 @@
 }
 
 .learn-more-block {
-    width: 142px;
+    width: 140px;
     height: 44px;
+    box-sizing: border-box;
     color: #23A6F0;
     display: flex;
     border-radius: 38px;
-    border: 1px solid red;
+    border: 1px solid #23A6F0;
+    align-items: center;
+    margin: 0px 123px 15px 25px;
+    padding: 0px 20px;
+    font-size: 21px;
+    
 }
 
 .slide-subtitle {
@@ -348,6 +351,7 @@
 .time-progress_item {
     display: flex;
 }
+
 
 
 
