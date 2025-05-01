@@ -5,14 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main-styles.css">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;400;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="main-styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.mobile.css">
+
     <title>Document</title>
 </head>
 
@@ -32,6 +36,16 @@
                 <a href="login" class="login">Login</a>
                 <button class="button-main">Become a member</button>
             </div>
+            <div class="mobile-menu_container"><span class="material-symbols-outlined">
+                menu
+            </span>
+            <ul class="navbar-mobile">
+                <li><a href="#home" class="nav-element">Home</a></li>
+                <li><a href="#product" class="nav-element">Product</a></li>
+                <li><a href="#pricing" class="nav-element">Pricing</a></li>
+                <li><a href="#contact" class="nav-element">Contact</a></li>
+            </ul>
+            </div>
         </header>
         <main>
             <div class="main-banner-information">
@@ -45,9 +59,9 @@
         </main>
     </div>
     <div class="block-course">
-        <h6 class="subtitle-course">Practice Advice</h6>
-        <h2 class="title-course">Packages that are aprodable</h2>
-        <p class="info-course">Problems trying to resolve the conflict between
+        <h6 class="advice-above_title">Practice Advice</h6>
+        <h2 class="title-block">Packages that are aprodable</h2>
+        <p class="subtitle-advice">Problems trying to resolve the conflict between <br>
             the two major realms of Classical physics: Newtonian mechanics </p>
         <div class="banner-courses">
             <img src="./assets/banner-course-left.svg" alt="banner-course-1">
@@ -67,9 +81,9 @@
         </div>
     </div>
     <div class="online-education-block">
-        <h6 class="subtitle-online-education">Practice Advice</h6>
-        <h2 class="title-online-education">Make online education accessible</h2>
-        <p class="info-online-education">Problems trying to resolve the conflict between
+        <h6 class="advice-above_title">Practice Advice</h6>
+        <h2 class="title-block">Make online education accessible</h2>
+        <p class="subtitle-advice">Problems trying to resolve the conflict between <br>
             the two major realms of Classical physics: Newtonian mechanics </p>
 
         <div class="slides">
@@ -106,7 +120,8 @@
                     <div class="slide-title_subtitle">
                         <h2>Graphic Design</h2>
                         <p class="slide-subtitle">We focus on ergonomics and meeting you where you work. It's only a
-                            <br> keystroke away.</p>
+                            <br> keystroke away.
+                        </p>
                     </div>
                     <div class="slider-sales">
                         <img src="./assets/slide-sale-icon.svg" alt="sale-icon">
@@ -139,7 +154,16 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="join-us_block">
+        <h6 class="advice-above_title">Practice Advice</h6>
+        <h2 class="title-block">JOIN US</h2>
+        <p class="subtitle-advice">Problems trying to resolve the conflict between <br>
+            the two major realms of Classical physics: Newtonian mechanics </p>
+        <div class="join-us_form"><input class="input-email" type="email" placeholder="Your Email">
+            <button class="button-main input-subcribe_button">Subrcribe</button>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="footer-block">

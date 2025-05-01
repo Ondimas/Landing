@@ -21,6 +21,9 @@ li {
     display: flex;
     cursor: pointer;
 }
+.button-main:hover {
+    background-color: #E74040;
+   }
 
 ul {
     padding: 0;

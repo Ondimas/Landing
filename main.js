@@ -1,0 +1,52 @@
+// let str='some test string';
+// console.log(str);
+// let firstLetter=str[0];
+// console.log(firstLetter);
+// let lastLetter=str[str.length-1];
+// console.log(lastLetter);
+// let upperFirst=firstLetter.toUpperCase();
+// let upperLast=lastLetter.toUpperCase();
+// console.log(upperFirst, upperLast);
+// // str = str.split('');
+// // str[str.length-1] = upperLast;
+// // str = str.join('');
+// // console.log(str);
+// str.slice(str.length-1);
+// str=str.slice(0,str.length-1)+upperLast;
+// console.log(str);
+// let findStr=str.indexOf('test');
+// console.log(findStr);
+// let lastSpace=str.lastIndexOf(' ');
+// console.log(lastSpace);
+// let findPlusSymbol=str.substring(5,5+4);
+// console.log(findPlusSymbol);
+// let findSymbol=str.substring(5,9);
+// console.log(findSymbol);
+// let cutSymbol=str.slice(0,str.length-6);
+// console.log(cutSymbol);
+// let a=16;
+// let b=20;
+// let year=a+b;
+// console.log(b.toString()+a.toString());
+
+// const pi=Math.PI;
+// console.log(pi.toFixed(2));
+// const array=[5,11,16,12,51,12,13,51];
+// let max=Math.max(5,11,16,12,51,12,13,51);
+// let min=Math.min(5,11,16,12,51,12,13,51);
+// console.log(max,min);
+
+// const randomNum=Math.random().toFixed(2);
+// console.log(randomNum);
+
+// const randomX=Math.floor(Math.random()*20);
+// console.log(randomX);
+
+// const item = {product: 'iphone'};
+// console.log(item);
+// item.price=1000;
+// item.currency='dollar';
+// console.log(item);
+// const details = {model: '13', color: 'black'};
+// item.details = details;
+// console.log(item);
